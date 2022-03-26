@@ -4,9 +4,9 @@ int main()
 {
     sf::ContextSettings settings;
     settings.antialiasingLevel = 8;
-    sf::RenderWindow window(sf::VideoMode(600, 600), "SFML works!", sf::Style::Default, settings);
+    sf::RenderWindow window(sf::VideoMode(600, 600), "Ray Casting c++/sfml", sf::Style::Default, settings);
     sf::CircleShape shape(300.f);
-    shape.setFillColor(sf::Color::Green);
+    shape.setFillColor(sf::Color(255,64,128));
 
     while (window.isOpen())
     {
